@@ -1,8 +1,114 @@
-.footer {
- background-image: url("./images/bgk-footer.png") center center;
- background-size: cover;
- height: 400px;
-
-
-
+footer {
+    position: absolute;
+    background-image: url('./images/bgk-footer.png');
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
 }
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.links,
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.about ul li {
+    float: left;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: lighter;
+    font: 20px Arial, sans-serif;
+    color: #92bdca;
+}
+
+ul {
+    list-style: none;
+}
+
+#map-icon img,
+#phone-icon img {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+#footer-address ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-wrapper ul li {
+    margin: 0 5px 0 1px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+input {
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 10px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.footer-nav ul li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    flex: auto;
+    justify-content: space-around;
+}
+    
