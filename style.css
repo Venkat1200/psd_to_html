@@ -1,17 +1,58 @@
+.container{
+background-color: white;
+width: 100%;
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.division {
+max-width: 960px;
+margin: 0 auto;
+
+}
+
+
+
+form {
+    display: flex;
+    margin-top: 0em;
+    flex-direction: column;
+    width: 300px;
+    gap: 16px;
+    
+    
+
+}
+
+
+
+
+/* <!-- Footer styling started here--> */
+
 footer {
     position: absolute;
-    background-image: url('/images/bgk-footer.png');
+    background-image: url('images/bgk-footer.png');
     background-position: center;
+    color: white;
     background-size: cover;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 600px;
+    height: auto;
     width: 100vw;
     padding-top: 40px;
     font-family: 'Quicksand', sans-serif;
 }
 
+.center {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
 .column {
     display: flex;
     justify-content: space-between;
